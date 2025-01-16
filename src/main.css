@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Jost", serif;
+
+  font-weight: 400;
+  color: #292f36;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Main Colors */
+.primary-background {
+  background-color: #0c70f2;
+}
+.primary-color {
+  color: #0c70f2;
+}
+.secundary-background {
+  background-color: #1d1d1d;
+}
+.secundary-Color {
+  color: #1d1d1d;
+}
+.tertiary-background {
+  background-color: #f6f6f6;
+}
+.tertiary-color {
+  color: #f6f6f6;
+}
+
+.grey-Color {
+  color: #4d5053;
+}
+
+/* Form */
+
+.form-input {
+  border: none;
+  border-bottom: 1px solid #292f36;
+  color: #292f36;
+  font-size: 22px;
+  font-family: "jost", sans-serif;
+  padding: 0 0 13px 0;
+  outline: none;
+  width: 100%;
+}
+
+.form-input::placeholder {
+  color: #292f36;
+  opacity: 1;
+}
+
+
+/* Typography */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DM Serif Display", serif;
+  font-size: inherit;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 2.5px;
+}
+
+p {
+  line-height: 150%;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+/* Grid*/
+
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1140px;
+  position: relative;
+  padding: 0 30px;
+}
+.al-center {
+  align-items: center;
+}
+.al-end {
+  align-items: end;
+}
+.d-flex {
+  display: flex;
+}
+.jc-center {
+  justify-content: center;
+}
+.jc-end {
+  justify-content: end;
+}
+.jc-space-between {
+  justify-content: space-between;
+}
+.fd-column {
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  .mobile-fd-column {
+    flex-direction: column;
+  }
+}

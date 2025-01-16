@@ -1,0 +1,63 @@
+.button {
+  border-radius: 18px;
+  border: none;
+  column-gap: 10px;
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 25px 50px;
+  transition: background-color 0.3s ease;
+}
+
+/* Primary */
+
+.button.primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.button.primary:hover {
+  background-color: #0056b3;
+}
+
+/* Secondary */
+
+.button.secondary {
+  background-color: #1d1d1d;
+  color: #fff;
+}
+
+.button.secondary:hover {
+  background-color: #4d5053;
+}
+
+/* Outline */
+
+.button.outline {
+  background-color: white;
+  color: #0c70f2;
+  border: 2px solid #0c70f2;
+}
+
+.button.outline:hover {
+  background-color: #0c70f2;
+  color: white;
+}
+
+/* unstyled */
+.unstyled {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  display: inline; /* ou outro valor conforme necessário */
+}
+
+/* Disabled */
+
+.button:disabled,
+.button:disabled > :hover {
+  background-color: #ccc;
+  color: #666;
+  pointer-events: none;
+}

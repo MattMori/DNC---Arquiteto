@@ -1,0 +1,89 @@
+.footer-logo-col {
+  max-width: 340px;
+  width: 100%;
+}
+
+.footer-col {
+  margin: 0 0 0 140px;
+  max-width: 260px;
+  width: 100%;
+}
+
+.footer-col ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-col li {
+  margin: 0 0 25px 0;
+  list-style: none;
+}
+
+footer h3,
+.footer-logo {
+  font-size: 25px;
+  margin: 0 0 25px 0;
+}
+
+footer a,
+footer p {
+  font-size: 22px;
+  margin: 0 0 25px 0;
+  line-height: 150%;
+  color: #1d1d1d;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #0c70f2;
+}
+
+footer .social-links a {
+  margin: 25px 40px 0 0;
+}
+
+footer .social-links a img {
+  width: 25px;
+  height: 25px;
+}
+
+footer .social-links a img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.footer-copy {
+  margin: 155px 0 50px 0;
+}
+.footer-copy .langs-area {
+  column-gap: 23px;
+}
+
+.langs-area:hover {
+  cursor: pointer;
+}
+
+.langs-area img {
+  border-radius: 50%;
+  margin: 0 0 0 0;
+}
+
+.langs-area img:hover {
+  border: 2px solid #0c70f2;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-col {
+    margin: 0 0 0 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .footer-logo-col {
+    max-width: 100%;
+    width: 100%;
+  }
+}
