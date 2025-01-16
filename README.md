@@ -8,5 +8,4 @@
 
 ## Tela de Home:
 
-[tela de home](/public/Home.png)
-
+![Tela de Home](/public/Home.png)
