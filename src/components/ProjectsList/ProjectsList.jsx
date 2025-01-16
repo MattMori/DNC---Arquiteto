@@ -8,7 +8,7 @@ import { AppContext } from '../../contexts/AppContext';
 import Button from '../Button/Button';
 
 //Assets
-import LikeOutline from '../../assets/like.svg';
+import LikeOutline from '../../assets/likeOutline.svg';
 import LikeFilled from '../../assets/likeFilled.svg';
 
 //Utils
