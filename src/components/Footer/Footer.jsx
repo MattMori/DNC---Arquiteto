@@ -8,7 +8,7 @@ import EuaIcon from '../../assets/usa-icon.svg';
 import InstagramIcon from '../../assets/instagram-icon.svg';
 import FacebookIcon from '../../assets/facebook-icon.svg';
 import TwitterIcon from '../../assets/twitter-icon.svg';
-import LinkedinIcon from '../../assets/linkedin-icon.svg';
+import LinkedinIcon from '../../assets/linkedinIcon.svg';
 
 // Context
 import { useContext } from "react";
